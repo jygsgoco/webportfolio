@@ -1,7 +1,86 @@
 *{
 	font-family: "Asap", sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 .bgnav{
-	background-color: rgba(76, 87, 96, .8);
+	background-color: rgba(76, 87, 96, .3);
 }
 
+#gmap{
+	width: 100%;
+    display: block;
+    border: none;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#bgcontact {
+  	background: linear-gradient(to bottom, rgba(0,0,0,1), rgba(147,168,172,0.2)), url(https://images.pexels.com/photos/1487154/pexels-photo-1487154.jpeg?cs=srgb&dl=pexels-daniel-watson-1487154.jpg&fm=jpg);
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+}
+
+#bggallery {
+  	background: linear-gradient(to bottom, rgba(0,0,0,1), rgba(147,168,172,0.2)), url(https://images.pexels.com/photos/358530/pexels-photo-358530.jpeg?cs=srgb&dl=pexels-pixabay-358530.jpg&fm=jpg);
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+}
+
+#bgskills {
+  	background: linear-gradient(to bottom, rgba(0,0,0,1), rgba(147,168,172,0.2)), url(https://images.pexels.com/photos/397905/pexels-photo-397905.jpeg?cs=srgb&dl=pexels-brandon-nickerson-397905.jpg&fm=jpg);
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+}
+
+#bghome {
+  	background: linear-gradient(to bottom, rgba(0,0,0,1), rgba(147,168,172,0.2)), url(https://images.pexels.com/photos/258160/pexels-photo-258160.jpeg?cs=srgb&dl=pexels-pixabay-258160.jpg&fm=jpg);
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+}
+
+#carcap{
+	background: rgba(76, 87, 96, .7);
+}
+.carousel-inner{
+ 	width:100%;
+ 	height: 500px;
+}
+
+#carshow1{
+	height: 500px;
+	overflow: hidden;
+	object-fit: cover;
+}
+#carshow2{
+	height: 500px;
+	overflow: hidden;
+	object-fit: cover;
+	object-position: 0% 5%;
+}
+#carshow3{
+	height: 500px;
+	overflow: hidden;
+	object-fit: cover;
+}
+.icon{
+	height: 150px;
+	overflow: hidden;
+	object-fit: cover;
+	background: white;
+}
+.wakka{
+	height: 150px;
+	width: 150px;
+	object-fit: cover;
+	object-position: -5% 60%;
+}
+
+.sklbg{
+	background: rgba(0, 0, 0, .4);
+}
