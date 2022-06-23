@@ -84,3 +84,15 @@
 .sklbg{
 	background: rgba(0, 0, 0, .4);
 }
+
+.ppic{
+	height: 300px;
+	width: 300px;
+}
+
+.mepic{
+	height: 300px;
+	width: 300px;
+	object-fit: cover;
+	object-position: -5% 30%;
+}
