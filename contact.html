@@ -18,25 +18,25 @@
 
 </head>
 <body class="text-center bgnav" id="bgcontact">
-	<section>	
+	<section class="sticky-top">	
 		<nav class="navbar navbar-expand-lg navbar-dark bgnav">
-		  <a class="navbar-brand" href="./index.html">Jygs Goco</a>
+		  <a class="navbar-brand ml-4" href="./index.html">Jygs Goco  <span class="sr-only">(current)</span></a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
 		  <div class="collapse navbar-collapse" id="navbarNav">
 		  	<!-- ml-auto will push all nav links to the right side of the webpage -->
 		    <ul class="navbar-nav ml-auto">
-		      <li class="nav-item">
+		      <li class="nav-item mx-3">
 		        <a class="nav-link" href="./index.html">Home</a>
 		      </li>
-		      <li class="nav-item">
+		      <li class="nav-item mx-3">
 		        <a class="nav-link" href="./skills.html">Skills</a>
 		      </li>
-		      <li class="nav-item">
+		      <li class="nav-item mx-3">
 		        <a class="nav-link" href="./gallery.html">Gallery</a>
 		      </li>
-		      <li class="nav-item active">
+		      <li class="nav-item active mx-3">
 		        <a class="nav-link" href="./contact.html">Contact <span class="sr-only">(current)</span></a>
 		      </li>
 		    </ul>
@@ -63,6 +63,29 @@
 					<div class="form-group px-3 my-3">
 						<label class="text-light" for="exampleFormControlInput1">Comment:</label>
 						<textarea class="w-100 form-control" rows="5" name="feedback"></textarea>
+					</div>
+					<button type="button" class="btn btn-primary ml-3 mt-4" data-toggle="modal" data-target="#exampleModal">
+						Submit
+					</button>
+
+					<!-- Modal -->
+					<div class="modal fade text-dark" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+								    <h6 class="modal-title" id="exampleModalLabel">Thank you for contacting us!</h6>
+								    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								        <span aria-hidden="true">&times;</span>
+								    </button>
+								</div>
+								<div class="modal-body">
+								    <p>Message Successfully Sent</p>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
 					</div>
 			  	</form>
 			</div>
